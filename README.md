@@ -15,15 +15,19 @@ Creamos los directorios para las paginas web y aplicamos los permisos:
 Creamos los sitios web y los configuramos por defecto:
   
   echo "Escherichiacoli" > /var/www/escherichiacoli.es/html/index.html
+  
   echo "Chip 555" > /var/www/chip555.org/html/index.html
+  
   echo "Gato" > /var/www/gato.com/html/index.html
+  
   echo "Mosquito" > /var/www/mosquito.com/html/index.html
   
-  configuracion por defecto:
-              sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/escherichiacoli.es.conf
-              sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/chip555.org.conf
-              sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/gato.com.conf
-              sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/mosquito.com.conf
+
+              
+  sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/escherichiacoli.es.conf
+  sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/chip555.org.conf
+  sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/gato.com.conf
+  sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/mosquito.com.conf
  
  Ficheros:
      
